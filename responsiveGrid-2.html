@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="responsiveGrid-2.css" />
+    <script src="script-page-1-and-2.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="userForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <div class="error" id="nameError"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <div class="error" id="emailError"></div>
+        </div>
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="">Select your country</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Senegal">Senegal</option>
+            <option value="Nigeria">Nigeria</option>
+          </select>
+          <div class="error" id="countryError"></div>
+        </div>
+        <div class="form-group">
+          <label>Gender:</label>
+          <div class="radio-group">
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+          </div>
+          <div class="error" id="genderError"></div>
+        </div>
+        <div class="form-group">
+          <label>Disability or Medical Condition:</label>
+          <div class="radio-group">
+            <input type="radio" id="yes" name="medicalCondition" value="Yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="medicalCondition" value="No" />
+            <label for="no">No</label>
+          </div>
+          <div class="error" id="medicalConditionError"></div>
+        </div>
+        <div
+          class="form-group"
+          id="conditionDetailsGroup"
+          style="display: none"
+        >
+          <label for="conditionDetails">Please specify:</label>
+          <textarea id="conditionDetails" name="conditionDetails"></textarea>
+          <div class="error" id="conditionDetailsError"></div>
+        </div>
+        <button type="submit">Next</button>
+      </form>
+      <div class="submitted-info" id="submittedInfo" style="display: none">
+        <h3>Submitted Information:</h3>
+        <p id="submittedText"></p>
+      </div>
+      <button onclick="goBackToFirstPage()">Back</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff; /* Light sky blue background */
+  }
+  .form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff; /* White form background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input,
+  select,
+  textarea,
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  textarea {
+    resize: vertical;
+  }
+  input[type="radio"] {
+    width: auto; /* Keep radio buttons small */
+    margin-right: 5px; /* Add space between the button and label */
+  }
+  .radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Add spacing between options */
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .submitted-info {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #e8f4ff; /* Light blue for submitted info */
+  }
+  .submitted-info h3 {
+    margin-top: 0;
+    color: #007bff;
+  }

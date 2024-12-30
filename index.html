@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid-responsive</title>
+    <link rel="stylesheet" href="responsiveGrid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script-page-1-and-2.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="handburger-menu" src="Icons/bars-solid.svg" />
+        <img class="youtube-logo" src="Icons/youtube.svg" alt="" />
+        <p class="Youtube-text">Youtube</p>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="Icons/magnifying-glass-solid.svg"
+            alt=""
+          />
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="Icons/microphone-solid.svg"
+            alt=""
+          />
+        </button>
+      </div>
+
+      <div class="right-section">
+        <button class="create-button">
+          <img class="plus-icon" src="Icons/plus-solid.svg" alt="" />
+          <p class="create-button-text">Create</p>
+        </button>
+        <div class="notifications-icon-container">
+          <img class="bell-icon" src="Icons/bell-regular.svg" alt="" />
+          <div class="notification-count">9+</div>
+        </div>
+        <img
+          class="user-profile-picture"
+          src="images/profilePicture.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- top flex buttons  -->
+    <div class="top-category-buttons">
+      <button class="category-buttons1">All</button>
+      <button class="category-buttons">Gaming</button>
+      <button class="category-buttons">Podcast</button>
+      <button class="category-buttons">Trialers</button>
+      <button class="category-buttons">Marvel Studios</button>
+      <button class="category-buttons">Music</button>
+      <button class="category-buttons">Source Code</button>
+      <button class="category-buttons">Computer Programming</button>
+      <button class="category-buttons">News</button>
+      <button class="category-buttons">Mixes</button>
+      <button class="category-buttons">Film Criticisms</button>
+      <button class="category-buttons">Debates</button>
+      <button class="category-buttons">Boyfriends</button>
+      <button class="category-buttons">AI</button>
+      <button class="category-buttons">Pranks</button>
+      <button class="category-buttons">Cheaters</button>
+      <button class="category-buttons">Algebra</button>
+      <button class="category-buttons">Data Science</button>
+      <button class="category-buttons">low Motion</button>
+      <button class="category-buttons">Sports</button>
+      <button class="category-buttons">Calculus</button>
+      <button class="category-buttons">Dramedy</button>
+      <button class="category-buttons">Media Theories</button>
+      <button class="category-buttons">Computer Hrdware</button>
+      <button class="category-buttons">Couples</button>
+      <button class="category-buttons">Watched</button>
+    </div>
+
+    <!-- left sidebar buttons  -->
+    <div class="thin-sidebar">
+      <div class="thin-sidebar-link">
+        <img src="Icons/house-solid.svg" alt="" />Home
+      </div>
+      <div class="thin-sidebar-link">
+        <img src="Icons/explore.png" alt="" />Explore
+      </div>
+      <div class="thin-sidebar-link">
+        <img src="Icons/icons8-subscription-50.png" alt="" />Subscriptions
+      </div>
+      <div class="thin-sidebar-link">
+        <img src="Icons/originals.svg" alt="" />Originals
+      </div>
+      <div class="thin-sidebar-link">
+        <img src="Icons/icons8-youtube-music.svg" alt="" />Youtube Music
+      </div>
+      <div class="thin-sidebar-link">
+        <img src="Icons/library.png" alt="" />Library
+      </div>
+    </div>
+
+    <div class="wide-sidebar">
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/house-solid.svg" alt="" /> Home
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/youtube-shorts.svg" alt="" /> Shorts
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-subscription-50.png"
+          alt=""
+        />
+        Subscriptions
+      </div>
+      <hr class="hr" />
+      <div class="wide-sidebar-link-title">
+        You
+        <img
+          class="you-right-arrow"
+          src="images/icons8-right-arrow-48.png"
+          alt=""
+        />
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/clock-rotate-left-solid.svg"
+          alt=""
+        />
+        History
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-lounge-music-playlist-32.png"
+          alt=""
+        />Playlist
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-video-clip-50.png"
+          alt=""
+        />Your Videos
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/clock-regular.svg" alt="" />watch
+        Layer
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/thumbs-up-solid.svg" alt="" />Liked
+        Videos
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/download-solid.svg" alt="" />
+        Downloads
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-scissors-48.png"
+          alt=""
+        />your Clips
+      </div>
+      <hr class="hr" />
+      <div class="wide-sidebar-link-title">Subscriptions</div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr2.jpg" alt="" />Ray William
+        Joh...
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr24.jpg" alt="" />Asmongold TV
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Images/pr3.jpg" alt="" />Penguinz0
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr25.jpg" alt="" />Python
+        Symplified
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr26.jpg" alt="" />Veritasium
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr27.jpg" alt="" />Firehhip
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/pr14.jpg" alt="" />Darius M
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="images/icons8-down-arrow-48.png" alt="" />
+        Show More
+      </div>
+      <hr class="hr" />
+      <div class="wide-sidebar-link-title">Explore</div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/chart-line-solid.svg"
+          alt=""
+        />Treding
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-music.svg" alt="" />Music
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-live-50.png" alt="" />Live
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-controller-48.png"
+          alt=""
+        />Gaming
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-news-48.png" alt="" />News
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-trophy-48.png"
+          alt=""
+        />Sports
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-bulb-48.png"
+          alt=""
+        />Learning
+      </div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-t-shirt-on-hanger-48.png"
+          alt=""
+        />Fashion & Beauty
+      </div>
+      <hr class="hr" />
+      <div class="wide-sidebar-link-title">More From YouTube</div>
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/Youtube-Studio-Logo--Streamline-Logos.svg"
+          alt=""
+        />YouTube Studio
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/youtube.svg" alt="" />YouTube Kids
+      </div>
+      <hr />
+      <div class="wide-sidebar-link">
+        <img
+          class="icons-image"
+          src="Icons/icons8-settings.gif"
+          alt=""
+        />Settings
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-flag.gif" alt="" />Report
+        History
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-help.gif" alt="" />Help
+      </div>
+      <div class="wide-sidebar-link">
+        <img class="icons-image" src="Icons/icons8-error.gif" alt="" />Send
+        Feedback
+      </div>
+      <hr class="hr" />
+      <div class="wide-sidebar-link-last">
+        <p class="p1">
+          About Press Copyright Contact us Creators Advertise Developers
+        </p>
+        <p class="p2">
+          Terms Privacy Policy & Safety How YouTube works Test new features
+        </p>
+        <p class="p3">© 2024 Google LLC</p>
+        <button class="assignment-button" onclick="goToForm()">
+          See Assignment
+        </button>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <!-- pic 1  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im23.jpg" alt="" />
+          <div class="video-time">6:31:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr23.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">13M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- pic 2  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im20.avif" alt="" />
+          <div class="video-time">15:50</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr20.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">WTF Happened in 2024?!</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">1.1M views &#183; 16 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 3  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im1.avif" alt="" />
+          <div class="video-time">21:18</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr1.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Inside the life of an INCEL...(it's sad)</p>
+            <p class="video-author">Strawberry Park</p>
+            <p class="video-stats">72k views &#183; 12 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- pic 4  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im2.avif" alt="" />
+          <div class="video-time">8:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Entitled Woman Gets a Reality Check Ray William Johnson
+            </p>
+            <p class="video-author">Ray William Johnson</p>
+            <p class="video-stats">265k views &#183; 16 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 5  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im3.avif" alt="" />
+          <div class="video-time">9:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr3.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Robots Are FInally Here</p>
+            <p class="video-author">Penguinz0</p>
+            <p class="video-stats">1.4M views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- pic 6  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im4.avif" alt="" />
+          <div class="video-time">1:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr4.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Rmatch - Reveal Trailer | PS5 Games</p>
+            <p class="video-author">PlayStation</p>
+            <p class="video-stats">742k views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 7  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im5.avif" alt="" />
+          <div class="video-time">17:02</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr5.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Python Intro(Part 2) bu Krithik</p>
+            <p class="video-author">Krithik's Kingdom</p>
+            <p class="video-stats">55 views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 8  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im6.avif" alt="" />
+          <div class="video-time">2:24:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr6.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Object Oriented Programming With Python - From Beginner to
+              Advanced
+            </p>
+            <p class="video-author">Coding Crash Course</p>
+            <p class="video-stats">18k views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 9  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im7.avif" alt="" />
+          <div class="video-time">12:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr7.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">"The Most Netflix Movie Of All Time"</p>
+            <p class="video-author">Asmongold TV</p>
+            <p class="video-stats">843k views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 10  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im8.avif" alt="" />
+          <div class="video-time">4:11</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr8.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">caesar Cipher in Pyhton!</p>
+            <p class="video-author">jn</p>
+            <p class="video-stats">4 views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 11  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im9.avif" alt="" />
+          <div class="video-time">12:48</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr9.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Mufasa: Can You Feel The Cringe</p>
+            <p class="video-author">Possum Reviews</p>
+            <p class="video-stats">95k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 12  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im10.avif" alt="" />
+          <div class="video-time">12:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr10.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Peanut Really Embarasses Jeff Dunham This Is Time
+            </p>
+            <p class="video-author">Comedy Dynamics</p>
+            <p class="video-stats">5.3M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 13  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im11.avif" alt="" />
+          <div class="video-time">15:32</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr11.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Matt Walsh Reviews The Worst TikToks Of 2024
+            </p>
+            <p class="video-author">Matt Walsh</p>
+            <p class="video-stats">301k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 14  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im12.avif" alt="" />
+          <div class="video-time">13:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr12.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">You've Got To See This</p>
+            <p class="video-author">Alexander Grace</p>
+            <p class="video-stats">65k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 15  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im13.avif" alt="" />
+          <div class="video-time">8:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr13.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">The First All Screen Laptop</p>
+            <p class="video-author">Unbox Therapy</p>
+            <p class="video-stats">1.3M views &#183; 13 days ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 16  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im14.avif" alt="" />
+          <div class="video-time">12:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr14.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Woman Regrets Not Dating The FriendZone Guy
+            </p>
+            <p class="video-author">Darius M</p>
+            <p class="video-stats">13k views &#183; 20 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 17  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im15.avif" alt="" />
+          <div class="video-time">2:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr15.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Invincilbe - Season 3 Official Trailer | Prime Video
+            </p>
+            <p class="video-author">Skybound</p>
+            <p class="video-stats">460k views &#183; 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 18  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im16.avif" alt="" />
+          <div class="video-time">16:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr16.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">A.I. Solves a 55 x 55 x 55 Rubik's Cube</p>
+            <p class="video-author">Code Bullet</p>
+            <p class="video-stats">16M views &#183; 6 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 19  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im17.avif" alt="" />
+          <div class="video-time">3:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr17.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              MIT graduates cannot power a light bulb with a battery.
+            </p>
+            <p class="video-author">Sarah Martin</p>
+            <p class="video-stats">879k views &#183; 11 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 20  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im18.avif" alt="" />
+          <div class="video-time">16:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr18.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Wubuntu - An Illegal Windows Like Distro</p>
+            <p class="video-author">Mental Outlaw</p>
+            <p class="video-stats">468k views &#183; 11 years ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 21  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im19.avif" alt="" />
+          <div class="video-time">8:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr19.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Stop Correlation vs Causation CONFUSION with SIMPLE Data..
+            </p>
+            <p class="video-author">AnalyticSociety</p>
+            <p class="video-stats">14 views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 22  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im21.jpg" alt="" />
+          <div class="video-time">1:16</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr21.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How To Train Your Dragon | Official Teaser Trailer
+            </p>
+            <p class="video-author">Universal Pictures</p>
+            <p class="video-stats">19M views &#183; 1 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 23  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im22.jpg" alt="" />
+          <div class="video-time">1:50</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr22.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Onimusha: Way of the sword - Announce Trailer | PS5 Games
+            </p>
+            <p class="video-author">PlayStation</p>
+            <p class="video-stats">975k views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- pic 24  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnial" src="images/im24.avif" alt="" />
+          <div class="video-time">36:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/pr24.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              She Quit Computer Science To Start OnlyFans..
+            </p>
+            <p class="video-author">Asmongold TV</p>
+            <p class="video-stats">678k views &#183; 5 days ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
